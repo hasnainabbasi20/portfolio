@@ -1,0 +1,287 @@
+
+@font-face {
+    font-family:poppin-regular ;
+    src: url(font/Poppins-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+
+}
+a{
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+}
+ul{
+    background: linear-gradient(indigo aqua);
+}
+.ul-list{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 35px ;
+    list-style: none;
+
+}
+.li-1{
+    border: 2px solid black;
+    width: 60px;
+    text-align: center;
+    border-radius: 30px;
+   
+
+}
+
+header{
+    width: 100%;
+    height: 650px;
+}
+.head{
+    background-image: url(assets/images/portfolio.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    position: relative;
+   
+}
+
+h1{
+    text-align:center;
+    background-color:rgb(11, 99, 125);
+    color:  rgba(10, 10, 10, 0.922);
+    z-index: 1;
+    position: relative;
+}
+.head img{
+    margin-top: 3%;
+    width: 200px;
+    height: 200px;  
+    border-radius: 70%;
+    position: relative;
+    left: 30px;
+}
+
+
+.info{
+    text-align: center;
+    font-family:poppin-regular; 
+    color: rgb(241, 241, 244);
+    gap: 50px; 
+    position: relative;
+    bottom: 25%;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.he-3{
+    position: relative;
+    right: 10%;
+    font-size: 38px;
+    animation: hasnain 1s 2s ease-in-out infinite forwards ;   
+}
+@keyframes hasnain {
+    
+    from{
+width: 100%;
+    }
+    to{
+width: 110%;
+color: black;
+    }
+}
+.separation{
+    padding: 5px;
+    width: 100%;
+    background-color: rgb(11, 99, 125);
+    margin-top:2px; 
+}
+section{
+  width: 100%;
+  height: 500px;
+  background-color:rgba(31,41,53,255);
+  margin-top: 2px;
+}
+
+section .container{
+    width: 90%;
+    height: 50%;
+    background-color:rgb(11, 99, 125);
+    display: flex;
+    position: relative;
+    top: 25%;
+    margin: auto;
+}
+section .container .container-html {
+    width: 40%;
+    padding: 3px;
+    background-color:rgba(6, 8, 8, 0.638);
+    position: relative;
+    right: pc;
+    margin: auto;
+    color: white;
+    font-family: 'poppin-regular';
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+section .container .container-html .html-skill-per{
+    width: 80%;
+    padding: 1px;
+    background-color:rgba(55, 172, 172, 0.68);
+    position: relative;
+    display: flex;
+    justify-content: end;
+    margin-top: 3px;
+    animation: skill-per infinite 2s forwards;
+}
+@keyframes skill-per {
+    
+    from{
+width: 0%;
+    }
+    to{
+width: 80%;
+color: black;
+    }
+}
+section .container .container-css{
+    width: 40%;
+    padding: 3px;
+    background-color:rgba(3, 4, 4, 0.669);
+    position: relative;
+    margin: auto;
+    color: white;
+    font-family: 'poppin-regular';
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    
+}
+section .container .container-css .css-skill-per{
+    width: 65%;
+    padding: 1px;
+    background-color:rgba(55, 172, 172, 0.683);
+    position: relative;
+    display: flex;
+    justify-content: end;
+    margin-top: 1px;
+    animation: css-skill-per infinite 2s forwards;
+    
+}
+@keyframes css-skill-per {
+    
+    from{
+width: 0%;
+    }
+    to{
+width: 65%;
+color: black;
+    }
+}
+.section-head{
+    color: white;
+    font-family: 'poppin-regular';
+    font-size: 50px;
+    text-decoration:line-through black;
+}
+.sec{
+     height: 650px;
+}
+.project-container{
+  width: 95%;
+  height: 550px;
+  background-color:rgb(11, 99, 125);
+  position: relative;
+  top: 10px;
+  left: 35px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.project-container .box{
+    width: 250px;
+    height:250px ;
+    background-color: white;
+    margin:15px ;
+    display: flex ;
+    
+}
+
+
+.box a{
+    color: rgb(253, 253, 253);
+    position: relative;
+    top: 102%;
+    right: 70%;
+    font-family: 'poppin-regular';
+    font-size: 28px;
+    text-decoration: none; 
+}
+.a:hover{
+    color: black;
+    text-transform: capitalize;
+    border: solid rgb(252, 249, 249) 2px;
+    background-color: rgba(31,41,53,255);
+    height: fit-content;
+    text-transform: capitalized;
+    padding: 2px;
+}
+.box .image{
+    width: 100%;
+}
+.box .image:hover{
+    opacity: 0.3;
+    cursor: pointer;
+    transform: scale(1.1);
+    border: black solid 2px;
+}
+.sp{
+    margin-top:25px;
+}
+.footer-items{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'poppin-regular';
+    font-size: 20px;
+    text-align: center;
+    color: rgb(253, 253, 253);
+    background-color:rgba(31,41,53,255);
+    margin-top:13px ;
+    
+}
+.anc{
+    position: relative;
+    left: 0;
+    top: 0;
+    color: white;
+    text-decoration: none;
+}
+.fa-whatsapp{
+    font-size: 50px;
+    position: relative;
+    top: 5px;
+    right:5px;
+}
+.fa-envelope{
+    font-size: 50px;
+    position: relative;
+    top: 5px;
+    right:5px;
+}
+.anc:hover{
+    color: black;
+}
+
+
+
+                  
+
+
+
+
